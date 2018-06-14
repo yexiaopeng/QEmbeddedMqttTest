@@ -9,6 +9,9 @@
 #include <QObject>
 #include <QTcpSocket>
 #include <QTimer>
+#include "MQTTPack/MQTTPacket.h"
+
+int transport_getdata(unsigned char* buf, int count);
 
 class QSocketMqtt : public QObject
 {

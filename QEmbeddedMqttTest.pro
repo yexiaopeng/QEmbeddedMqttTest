@@ -32,3 +32,6 @@ HEADERS += \
     MQTTPack/MQTTUnsubscribe.h \
     MQTTPack/StackTrace.h
 
+DISTFILES += \
+    README.md
+

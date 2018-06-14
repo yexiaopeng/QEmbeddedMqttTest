@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 
     QSocketMqtt * mqtt;
     mqtt = QSocketMqtt::GetInstance();
-    mqtt->setHostName("192.168.9.75",31688);
+    mqtt->setHostName("47.100.100.235",1884);
     mqtt->test();
 
     return a.exec();
