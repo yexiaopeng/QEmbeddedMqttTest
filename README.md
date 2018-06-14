@@ -4,7 +4,7 @@
 #### 开发环境：Ubuntu16 64bit + Qt5.5
 #### 实现功能：启动后，先Mqtt服务器发送“Start'字符串。然后订阅服务器消息。规定时间内未接收到服务器消息，上传"loop"，若接收到消息则打印消息，此后再次循环等待服务器消息。
 ---
-#### 本身Qt提供了QMTT的模块，但为集成到QTsdk中，需要用户自己下载源码编译。但官方的Mqtt对Qt的版本有一定要求，经测试Qt5.5无法正常编译，而Qt5.8开始可以编译，实际情况大家科技自己测试。附上说明博客  https://www.cnblogs.com/yexiaopeng/p/8542894.html
+#### 本身Qt提供了QMTT的模块，但未集成到QTsdk中，需要用户自己下载源码编译。但官方的Mqtt对Qt的版本有一定要求，经测试Qt5.5无法正常编译，而Qt5.8开始可以编译，实际情况大家可以自己测试。附上说明博客  https://www.cnblogs.com/yexiaopeng/p/8542894.html
 ---
 #### 本次使用eclipse提供的嵌入式版本的Mqtt源码库配合Qt的TcpSocket进行演示。下载地址：https://github.com/eclipse/paho.mqtt.embedded-c
 ---
